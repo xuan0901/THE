@@ -44,17 +44,17 @@ public class MainActivity extends AppCompatActivity {
 
                     // 診斷結果 顯示
                     if (fresult<18.5)
-                        dia.setText("體重過輕");
+                        dia.setText("體重過輕，親多吃點唄～");
                     else if (18.5 <= fresult && fresult< 24)
-                        dia.setText("正常範圍");
+                        dia.setText("正常範圍，水啦");
                     else if (24 <=fresult && fresult < 27)
-                        dia.setText("過    重");
+                        dia.setText("過    重，這裡有小胖子！");
                     else if (27 <=fresult && fresult < 30)
-                        dia.setText("輕度肥胖");
+                        dia.setText("輕度肥胖，幸福肥沒事啦");
                     else if (30 <= fresult && fresult < 35)
-                        dia.setText("中度肥胖");
+                        dia.setText("中度肥胖，咱們走一個中庸之道");
                     else if (fresult >= 35)
-                        dia.setText("重度肥胖        ");
+                        dia.setText("重度肥胖，太幸福摟親");
                 }
             }
         });
